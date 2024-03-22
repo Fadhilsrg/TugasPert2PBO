@@ -5,8 +5,11 @@ public class kucingKuning extends kucing{
     String bau = "Bawang Merah";
 
     void display(){
-        super.meowSound();
+        super.bunyiKucing();
+        super.kakiCacat();
+        super.normalCharacteristic();
         System.out.println("ekor = " + ekor);
         System.out.println("bau = " + bau);
+        System.out.println(" ");
     }
 }

@@ -4,8 +4,10 @@ public class kucingOren extends kucing {
     String kuping = "Caplang";
 
     void display(){
-        super.meowSound();
+        super.bunyiKucing();
+        super.normalCharacteristic();
         System.out.println("Warna Mata = " + warnaMata);
         System.out.println("Kuping = " + kuping);
+        System.out.println(" ");
     }
 }
